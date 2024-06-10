@@ -2,31 +2,41 @@
 <html lang="es">
 
 <head>
+    <!-- Definición del conjunto de caracteres y configuración del viewport -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace a la fuente de Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Enlaces a las hojas de estilos CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flexbox.css">
+
+    <!-- Título de la página y favicon -->
     <title>AluraPlay</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
+    <!-- Encabezado de la página -->
     <header>
 
+        <!-- Barra de navegación -->
         <nav class="encabezado">
+            <!-- Enlace al inicio de la página -->
             <a class="logo" href="./index.html"></a>
 
+            <!-- Campo de búsqueda y botón de búsqueda -->
             <div class="encabezado__buscar">
-
                 <input type="search" placeholder="Buscar" id="buscar" class="buscar__input" data-busqueda>
                 <button class="buscar__boton" data-boton-busqueda></button>
-
             </div>
 
+            <!-- Icono para acceder a la página de envío de videos -->
             <div class="encabezado__iconos">
                 <a href="./pages/enviar-video.html" class="encabezado__videos"></a>
             </div>
@@ -34,10 +44,12 @@
 
     </header>
 
+    <!-- Contenedor de la lista de videos -->
     <ul class="videos__container" alt="videos alura" data-lista>
-       
+        <!-- Aquí se mostrarán los videos -->
     </ul>
 
+    <!-- Scripts JavaScript -->
     <script src="js/mostrarVideos.js" type="module"></script>
     <script src="js/filtrarVideo.js" type="module"></script>
 </body>
