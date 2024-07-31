@@ -1,7 +1,7 @@
 // Función asincrónica para obtener la lista de videos desde el servidor
 async function listaVideos() {
     // Realiza una solicitud fetch para obtener la lista de videos desde la URL proporcionada
-    const conexion = await fetch('http://localhost:3001/videos');
+    const conexion = await fetch('https://my-json-server.typicode.com/fluxdev19/api_info_aluraplay2/videos');
 
     // Convierte la respuesta de la solicitud fetch a formato JSON
     const conexionConvertida = conexion.json();
@@ -13,7 +13,7 @@ async function listaVideos() {
 // Función asincrónica para enviar un nuevo video al servidor
 async function enviarVideo(titulo, descripcion, url, imagen) {
     // Realiza una solicitud fetch con el método POST para enviar los datos del video al servidor
-    const conexion = await fetch('http://localhost:3001/videos', {
+    const conexion = await fetch('https://my-json-server.typicode.com/fluxdev19/api_info_aluraplay2/videos', {
         method: 'POST',
         headers: { 'Content-type': 'application/json' },
         body: JSON.stringify({
@@ -40,7 +40,7 @@ async function enviarVideo(titulo, descripcion, url, imagen) {
 // Función asincrónica para buscar videos en el servidor utilizando una palabra clave
 async function buscarVideos(palabraClave) {
     // Realiza una solicitud fetch para buscar videos que coincidan con la palabra clave proporcionada
-    const conexion = await fetch(`http://localhost:3001/videos?q=${palabraClave}`);
+    const conexion = await fetch(`https://my-json-server.typicode.com/fluxdev19/api_info_aluraplay2/videos?q=${palabraClave}`);
 
     // Convierte la respuesta de la solicitud fetch a formato JSON
     const conexionConvertida = conexion.json();
