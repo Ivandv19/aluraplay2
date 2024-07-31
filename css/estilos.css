@@ -28,9 +28,9 @@ body {
     background-color: white;
     position: fixed;
     top: 0;
-    height: 80px;
+    height: auto;
     width: 100%;
-    padding: 0 25px;
+    padding: 35px 25px;
     z-index: 2;
 }
 
