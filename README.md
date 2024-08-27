@@ -5,7 +5,7 @@ AluraPlay es una plataforma de videos educativos donde puedes encontrar una ampl
 
 ## Uso
 
-1. **Visualización del Proyecto:** Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://aluraplay2-seven.vercel.app/).
+1. **Visualización del Proyecto:** Para visualizar el proyecto, sigue los pasos que se encuentran en la sección [Instalación](#instalación) o visita el enlace desplegado en [Vercel](https://aluraplay2-seven.vercel.app/).
 2. **Formulario de registro de vídeos:** Dirígete a la página de envío de videos utilizando el enlace correspondiente.
 3. **Busqueda de videos:** Utiliza la barra de búsqueda para encontrar videos específicos.
 
@@ -29,14 +29,7 @@ AluraPlay es una plataforma de videos educativos donde puedes encontrar una ampl
 ```bash
 https://github.com/IvandevI9/aluraplay2.git
 ```
-2. **Instalar Dependencias:** Navega al directorio del proyecto y ejecuta:
-```bash
-npm install
-```
-3. **Iniciar el Proyecto:** Ejecuta el proyecto localmente con:
-```bash
-npm start
-```
+2. Abre el archivo `index.html` en tu navegador web.
 
 ## Créditos
 
