@@ -1,5 +1,5 @@
 
-# Página inicial y formulario de registro de vídeos de AluraPlay
+# Alura Play v2
 
 AluraPlay es una plataforma de videos educativos donde puedes encontrar una amplia variedad de contenido sobre programación, ciencia de datos, diseño, desarrollo web y más.
 
@@ -17,11 +17,11 @@ AluraPlay es una plataforma de videos educativos donde puedes encontrar una ampl
 
 ## Tecnologías utilizadas
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **My JSON Server**
-- **Node.js**
+- HTML
+- CSS
+- JavaScript
+- My JSON Server
+- Node.js
 
 ## Instalación
 
