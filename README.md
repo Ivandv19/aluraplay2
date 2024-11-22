@@ -1,5 +1,5 @@
 
-# Alura Play v2
+## Alura Play v2
 
 AluraPlay es una plataforma de videos educativos donde puedes encontrar una amplia variedad de contenido sobre programación, ciencia de datos, diseño, desarrollo web y más.
 
